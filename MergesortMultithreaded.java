@@ -80,7 +80,7 @@ class ImplementMergesort //class that implements mergesort
 			}
 		}
 	}
-	void merge(int low,int mid,int high)
+	void merge(int low,int mid,int high) //call to merge()
 	{
 		int i=low, j=mid+1, k=low;
 		while((i<=mid)&&(j<=high))
